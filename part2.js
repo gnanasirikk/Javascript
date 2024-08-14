@@ -16,3 +16,11 @@ let age=8
     if(age<18){
         console.log("under 18")}
 console.log("after")
+//Traffic light system(cnd stmts)
+let light='red'
+if (light==='red')
+    console.log("Stop");
+if (light==='yellow')
+    console.log("slow down");
+else (light==='green')
+    console.log("go");
