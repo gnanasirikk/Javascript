@@ -1,4 +1,2 @@
 # Javascript
-Practice
-<br>
-let-hi
+From course part2
