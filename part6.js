@@ -101,4 +101,65 @@ const calci={
     
 };
 
+//ASSIGNMENT
+let first = [8,32,13,34,2,1,4,2,14];
+let m = 4;
+function elements(first,m){
+    for(let i =0;i<first.length;i++){
+        if(arr[i]>m){
+            console.log(first[i]);
+        }
+    }
+}
+elements(first,m);
 
+
+let s ="asdfghjkmnbvcxz";
+function unique(str){
+    let ans = "";
+    for(let i=0;i<str.enght;i++){
+        let char = s[i];
+    if(async.indexOf(char) == -1){
+        ans +=char;
+    }
+}
+return ans;
+}
+unique(str);
+
+
+let country = ["spain","india","Morocco","austrailia"];;
+function longestName(country){
+    let ansIdx  = 0;
+    for (let i =0;i<country.length;i++){
+        let ansLen = country[i].length;if(currLen>ansLen)
+            {
+                ansIdx=i;
+
+    }
+}
+returncountry[ansIdx];
+}
+longestName(country)
+
+
+letstr="gnanasiri";
+functioncountVowels(str){
+    letcount=0;
+    for(leti=0;i<str.length;i++){
+        if(str.charAt(i)=="a"||str.charAt(i)=="e"||str.charAt(i)=="i"||str.charAt(i)=="o"||str.charAt(i)=="u")
+            {
+                count++;
+            }
+        }
+        returncount;
+
+    }
+    
+
+letstart=100;
+letend=200;
+functiongenerateRandom(start,end){
+    letdiff=end-start;
+    returnMath.floor(Math.random()*diff)+start;
+}
